@@ -20,6 +20,7 @@
 	  pkgs.obsidian
 	  pkgs.stow
 	  pkgs.vim
+	  pkgs.warp-terminal
         ];
 
       # Homebrew config
@@ -27,6 +28,7 @@
         enable = true;
 	brews = [
 	  "mas"
+	  "uv"
 	];
 	casks = [
 	  "firefox"

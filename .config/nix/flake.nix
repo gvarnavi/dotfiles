@@ -20,6 +20,7 @@
           pkgs.neovim
 	  pkgs.obsidian
 	  pkgs.rectangle
+	  pkgs.spotify
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.warp-terminal

@@ -19,6 +19,7 @@
 	  pkgs.mkalias
           pkgs.neovim
 	  pkgs.obsidian
+	  pkgs.rectangle
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.warp-terminal

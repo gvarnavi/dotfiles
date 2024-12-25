@@ -18,6 +18,7 @@
 	  pkgs.discord
 	  pkgs.mkalias
           pkgs.neovim
+	  pkgs.nodejs_22
 	  pkgs.obsidian
 	  pkgs.rectangle
 	  pkgs.spotify

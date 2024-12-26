@@ -35,6 +35,7 @@
 	  "uv"
 	];
 	casks = [
+	  "docker"
 	  "firefox"
 	  "the-unarchiver"
 	];

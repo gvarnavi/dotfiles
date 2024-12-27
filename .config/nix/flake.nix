@@ -37,6 +37,7 @@
 	casks = [
 	  "docker"
 	  "firefox"
+	  "ghostty"
 	  "the-unarchiver"
 	];
 	masApps = {

@@ -93,6 +93,17 @@
       system.defaults = {
         dock.autohide = true;
 	dock.mru-spaces = false;
+	dock.persistent-apps = [
+	  "/System/Applications/Messages.app"
+	  "/System/Applications/iPhone Mirroring.app"
+	  "/System/Cryptexes/App/System/Applications/Safari.app"
+	  "/Applications/Slack.app"
+	  "${pkgs.discord}/Applications/Discord.app"
+	  "${pkgs.obsidian}/Applications/Obsidian.app"
+	  "${pkgs.spotify}/Applications/Spotify.app"
+	  "${pkgs.warp-terminal}/Applications/Warp.app"
+	  "/Applications/Ghostty.app"
+	];
 	finder.AppleShowAllExtensions = true;
 	finder.FXPreferredViewStyle = "clmv";
 	loginwindow.GuestEnabled = false;

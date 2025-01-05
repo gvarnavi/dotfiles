@@ -25,6 +25,7 @@
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.warp-terminal
+	  pkgs.whatsapp-for-mac
         ];
 
       # Homebrew config

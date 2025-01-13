@@ -16,6 +16,7 @@
       environment.systemPackages =
         [
 	  pkgs.discord
+	  pkgs.inkscape-with-extensions
 	  pkgs.mkalias
           pkgs.neovim
 	  pkgs.nodejs_22

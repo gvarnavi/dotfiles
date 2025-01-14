@@ -27,6 +27,7 @@
 	  pkgs.vim
 	  pkgs.warp-terminal
 	  pkgs.whatsapp-for-mac
+	  pkgs.zoom-us
         ];
 
       # Homebrew config

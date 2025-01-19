@@ -41,6 +41,7 @@
 	  "docker"
 	  "firefox"
 	  "ghostty"
+	  "skype"
 	  "the-unarchiver"
 	];
 	masApps = {

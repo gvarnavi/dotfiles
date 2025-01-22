@@ -41,6 +41,7 @@
 	  "docker"
 	  "firefox"
 	  "ghostty"
+	  "google-chrome"
 	  "skype"
 	  "the-unarchiver"
 	];

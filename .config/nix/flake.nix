@@ -68,7 +68,7 @@
       # programs.fish.enable = true;
 
       # Fingerprint sudo
-      security.pam.enableSudoTouchIdAuth = true;
+      security.pam.services.sudo_local.touchIdAuth = true;
 
       # Index applications in spotlight hack
       system.activationScripts.applications.text = let

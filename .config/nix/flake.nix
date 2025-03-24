@@ -16,7 +16,6 @@
       environment.systemPackages =
         [
 	  pkgs.discord
-	  pkgs.inkscape-with-extensions
 	  pkgs.mkalias
           pkgs.neovim
 	  pkgs.nodejs_22
@@ -26,8 +25,7 @@
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.warp-terminal
-	  pkgs.whatsapp-for-mac
-	  pkgs.zoom-us
+	  #pkgs.zoom-us
         ];
 
       # Homebrew config
@@ -108,6 +106,7 @@
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
 	  "${pkgs.spotify}/Applications/Spotify.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
+	  #"${pkgs.zoom-us}/Applications/zoom.us.app"
 	];
 	finder.AppleShowAllExtensions = true;
 	finder.FXPreferredViewStyle = "clmv";

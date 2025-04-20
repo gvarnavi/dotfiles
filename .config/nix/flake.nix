@@ -15,6 +15,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [
+	  pkgs.code-cursor
 	  pkgs.discord
 	  pkgs.mkalias
           pkgs.neovim
@@ -25,7 +26,6 @@
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.warp-terminal
-	  #pkgs.zoom-us
         ];
 
       # Homebrew config
@@ -106,7 +106,7 @@
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
 	  "${pkgs.spotify}/Applications/Spotify.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
-	  #"${pkgs.zoom-us}/Applications/zoom.us.app"
+	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	];
 	finder.AppleShowAllExtensions = true;
 	finder.FXPreferredViewStyle = "clmv";

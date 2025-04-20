@@ -99,12 +99,10 @@
 	dock.persistent-apps = [
 	  "/System/Applications/Messages.app"
 	  "/System/Applications/iPhone Mirroring.app"
-	  # "/System/Cryptexes/App/System/Applications/Safari.app"
 	  "/Applications/Google Chrome.app"
 	  "/Applications/Slack.app"
 	  "${pkgs.discord}/Applications/Discord.app"
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
-	  "${pkgs.spotify}/Applications/Spotify.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
 	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	];

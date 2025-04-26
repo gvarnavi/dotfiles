@@ -25,6 +25,7 @@
 	  pkgs.spotify
 	  pkgs.stow
 	  pkgs.vim
+	  pkgs.vscodium
 	  pkgs.warp-terminal
         ];
 
@@ -105,6 +106,7 @@
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
 	  "${pkgs.code-cursor}/Applications/Cursor.app"
+	  "${pkgs.vscodium}/Applications/VSCodium.app"
 	];
 	finder.AppleShowAllExtensions = true;
 	finder.FXPreferredViewStyle = "clmv";

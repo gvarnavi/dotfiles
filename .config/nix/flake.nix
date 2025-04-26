@@ -39,7 +39,6 @@
 	casks = [
 	  "docker"
 	  "firefox"
-	  "ghostty"
 	  "google-chrome"
 	  "skype"
 	  "the-unarchiver"
@@ -104,6 +103,7 @@
 	  "/Applications/Slack.app"
 	  "${pkgs.discord}/Applications/Discord.app"
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
+	  "/Applications/zoom.us.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
 	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"

@@ -107,6 +107,7 @@
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
 	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"
+	  "/Applications/Trae.app"
 	];
 	finder.AppleShowAllExtensions = true;
 	finder.FXPreferredViewStyle = "clmv";

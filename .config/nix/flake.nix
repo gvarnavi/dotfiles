@@ -40,7 +40,6 @@
 	  "docker"
 	  "firefox"
 	  "google-chrome"
-	  "skype"
 	  "the-unarchiver"
 	];
 	masApps = {
@@ -92,6 +91,9 @@
       # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;
 
+      # Set default user
+      system.primaryUser = "gvarnavides";
+
       # Set some defaults
       system.defaults = {
         dock.autohide = true;
@@ -104,6 +106,7 @@
 	  "${pkgs.discord}/Applications/Discord.app"
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
 	  "/Applications/zoom.us.app"
+	  "/Applications/Microsoft Teams.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
 	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"

@@ -22,7 +22,7 @@
 	  pkgs.nodejs_22
 	  pkgs.obsidian
 	  pkgs.rectangle
-	  pkgs.spotify
+	  # pkgs.spotify
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.vscodium

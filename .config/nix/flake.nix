@@ -21,8 +21,9 @@
           pkgs.neovim
 	  pkgs.nodejs_22
 	  pkgs.obsidian
+	  pkgs.pipx
 	  pkgs.rectangle
-	  # pkgs.spotify
+	  pkgs.spotify
 	  pkgs.stow
 	  pkgs.vim
 	  pkgs.vscodium

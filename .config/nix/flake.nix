@@ -28,6 +28,7 @@
 	  pkgs.vim
 	  pkgs.vscodium
 	  pkgs.warp-terminal
+	  pkgs.wget
         ];
 
       # Homebrew config

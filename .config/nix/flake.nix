@@ -64,6 +64,15 @@
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
 
+      # Automatic garbage collection
+      nix.gc = {
+        automatic = true;
+        options = "--delete-older-than 14d";
+      };
+
+      # Optimize nix store
+      nix.optimise.automatic = true;
+
       # Enable alternative shell support in nix-darwin.
       # programs.fish.enable = true;
 

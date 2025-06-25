@@ -39,7 +39,7 @@
 	  "uv"
 	];
 	casks = [
-	  "docker"
+	  "docker-desktop"
 	  "firefox"
 	  "inkscape"
 	  "google-chrome"

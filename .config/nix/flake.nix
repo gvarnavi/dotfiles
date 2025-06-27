@@ -40,8 +40,9 @@
 	casks = [
 	  "docker-desktop"
 	  "firefox"
-	  "inkscape"
 	  "google-chrome"
+	  "inkscape"
+	  "messenger"
 	  "the-unarchiver"
 	];
 	masApps = {
@@ -66,11 +67,15 @@
       # Automatic garbage collection
       nix.gc = {
         automatic = true;
+        interval = [{ Hour = 3; Minute = 15; }]; # Run daily at 3:15 AM
         options = "--delete-older-than 14d";
       };
 
       # Optimize nix store
-      nix.optimise.automatic = true;
+      nix.optimise = {
+        automatic = true;
+        interval = [{ Hour = 4; Minute = 0; }]; # Run daily at 4:00 AM
+      };
 
       # Enable alternative shell support in nix-darwin.
       # programs.fish.enable = true;

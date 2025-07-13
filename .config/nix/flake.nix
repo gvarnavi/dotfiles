@@ -44,6 +44,7 @@
 	  "inkscape"
 	  "messenger"
 	  "the-unarchiver"
+	  "whatsapp"
 	];
 	masApps = {
 	  "Slack" = 803453959;

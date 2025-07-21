@@ -15,7 +15,6 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [
-	  pkgs.code-cursor
 	  pkgs.discord
 	  pkgs.mkalias
           pkgs.neovim
@@ -125,7 +124,6 @@
 	  "/Applications/zoom.us.app"
 	  "/Applications/Microsoft Teams.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"
-	  "${pkgs.code-cursor}/Applications/Cursor.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"
 	];
 	finder.AppleShowAllExtensions = true;

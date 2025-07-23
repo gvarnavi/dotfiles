@@ -33,7 +33,10 @@
       homebrew = {
         enable = true;
 	brews = [
+	  "cairo"
+	  "cmake"
 	  "mas"
+	  "pkg-config"
 	  "uv"
 	];
 	casks = [

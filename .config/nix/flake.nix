@@ -15,6 +15,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [
+	  pkgs.brave
 	  pkgs.discord
 	  pkgs.mkalias
           pkgs.neovim

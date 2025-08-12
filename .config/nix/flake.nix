@@ -48,6 +48,7 @@
 	  "messenger"
 	  "the-unarchiver"
 	  "whatsapp"
+	  "zettlr"
 	];
 	masApps = {
 	  "Slack" = 803453959;
@@ -121,10 +122,11 @@
 	dock.persistent-apps = [
 	  "/System/Applications/Messages.app"
 	  "/System/Applications/iPhone Mirroring.app"
-	  "/Applications/Google Chrome.app"
+	  "${pkgs.brave}/Applications/Brave Browser.app"
 	  "/Applications/Slack.app"
 	  "${pkgs.discord}/Applications/Discord.app"
 	  "${pkgs.obsidian}/Applications/Obsidian.app"
+	  "/Applications/Zettlr.app"
 	  "/Applications/zoom.us.app"
 	  "/Applications/Microsoft Teams.app"
 	  "${pkgs.warp-terminal}/Applications/Warp.app"

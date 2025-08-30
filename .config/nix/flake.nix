@@ -24,6 +24,7 @@
 	  pkgs.rectangle
 	  pkgs.spotify
 	  pkgs.stow
+	  pkgs.typst
 	  pkgs.vim
 	  pkgs.vscodium
 	  pkgs.warp-terminal

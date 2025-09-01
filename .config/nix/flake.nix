@@ -22,6 +22,7 @@
 	  pkgs.nodejs_22
 	  pkgs.obsidian
 	  pkgs.rectangle
+	  pkgs.skimpdf
 	  pkgs.spotify
 	  pkgs.stow
 	  pkgs.typst

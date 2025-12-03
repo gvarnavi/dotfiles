@@ -17,6 +17,7 @@
         [
 	  pkgs.brave
 	  pkgs.discord
+	  pkgs.ffmpeg_7-headless
 	  pkgs.mkalias
           pkgs.neovim
 	  pkgs.nodejs_22
@@ -28,7 +29,6 @@
 	  pkgs.typst
 	  pkgs.vim
 	  pkgs.vscodium
-	  pkgs.warp-terminal
 	  pkgs.wget
         ];
 
@@ -49,6 +49,7 @@
 	  "inkscape"
 	  "messenger"
 	  "the-unarchiver"
+	  "warp"
 	  "whatsapp"
 	  "zettlr"
 	];
@@ -131,7 +132,7 @@
 	  "/Applications/Zettlr.app"
 	  "/Applications/zoom.us.app"
 	  "/Applications/Microsoft Teams.app"
-	  "${pkgs.warp-terminal}/Applications/Warp.app"
+	  "/Applications/Warp.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"
 	];
 	finder.AppleShowAllExtensions = true;

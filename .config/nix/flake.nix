@@ -26,6 +26,7 @@
 	  pkgs.skimpdf
 	  pkgs.spotify
 	  pkgs.stow
+	  pkgs.texliveFull
 	  pkgs.typst
 	  pkgs.vim
 	  pkgs.vscodium

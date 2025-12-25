@@ -16,16 +16,11 @@
       environment.systemPackages =
         [
 	  pkgs.brave
-	  pkgs.discord
 	  pkgs.ffmpeg_7-headless
 	  pkgs.mkalias
-          pkgs.neovim
 	  pkgs.nodejs_22
-	  pkgs.obsidian
 	  pkgs.rectangle
-	  pkgs.skimpdf
-	  pkgs.spotify
-	  pkgs.stow
+          pkgs.stow
 	  pkgs.texliveFull
 	  pkgs.typst
 	  pkgs.vim
@@ -45,7 +40,6 @@
 	];
 	casks = [
 	  "docker-desktop"
-	  "firefox"
 	  "google-chrome"
 	  "inkscape"
 	  "messenger"
@@ -124,12 +118,9 @@
         dock.autohide = true;
 	dock.mru-spaces = false;
 	dock.persistent-apps = [
-	  "/System/Applications/Messages.app"
-	  "/System/Applications/iPhone Mirroring.app"
 	  "${pkgs.brave}/Applications/Brave Browser.app"
 	  "/Applications/Slack.app"
 	  "${pkgs.discord}/Applications/Discord.app"
-	  "${pkgs.obsidian}/Applications/Obsidian.app"
 	  "/Applications/Zettlr.app"
 	  "/Applications/zoom.us.app"
 	  "/Applications/Microsoft Teams.app"
@@ -158,7 +149,7 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."air" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations.L9KWKT743M = nix-darwin.lib.darwinSystem {
       modules = [ 
         configuration
         nix-homebrew.darwinModules.nix-homebrew

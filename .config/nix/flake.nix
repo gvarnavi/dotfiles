@@ -120,9 +120,9 @@
 	dock.persistent-apps = [
 	  "${pkgs.brave}/Applications/Brave Browser.app"
 	  "/Applications/Slack.app"
-	  "${pkgs.discord}/Applications/Discord.app"
 	  "/Applications/Zettlr.app"
 	  "/Applications/zoom.us.app"
+	  "/Applications/Microsoft Outlook.app"
 	  "/Applications/Microsoft Teams.app"
 	  "/Applications/Warp.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"

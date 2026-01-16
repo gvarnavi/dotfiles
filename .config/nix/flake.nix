@@ -22,6 +22,7 @@
 	  pkgs.rectangle
           pkgs.stow
 	  pkgs.texliveFull
+          pkgs.tree
 	  pkgs.typst
 	  pkgs.vim
 	  pkgs.vscodium

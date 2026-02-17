@@ -18,6 +18,7 @@
 	  pkgs.brave
 	  pkgs.ffmpeg_7-headless
 	  pkgs.gh
+          pkgs.julia-bin
 	  pkgs.mkalias
 	  pkgs.nodejs_22
 	  pkgs.rectangle

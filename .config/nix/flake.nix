@@ -43,6 +43,7 @@
 	];
 	casks = [
 	  "docker-desktop"
+	  "freecad"
 	  "google-chrome"
 	  "inkscape"
 	  "messenger"

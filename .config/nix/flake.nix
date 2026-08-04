@@ -18,6 +18,7 @@
 	  pkgs.brave
 	  pkgs.ffmpeg_7-headless
 	  pkgs.gh
+	  pkgs.ghostty-bin
           pkgs.julia-bin
 	  pkgs.mkalias
 	  pkgs.nodejs_22
@@ -46,10 +47,7 @@
 	  "freecad"
 	  "google-chrome"
 	  "inkscape"
-	  "messenger"
 	  "the-unarchiver"
-	  "warp"
-	  "whatsapp"
 	  "zettlr"
 	];
 	onActivation.cleanup = "zap";
@@ -125,7 +123,7 @@
 	  "/Applications/zoom.us.app"
 	  "/Applications/Microsoft Outlook.app"
 	  "/Applications/Microsoft Teams.app"
-	  "/Applications/Warp.app"
+	  "${pkgs.ghostty-bin}/Applications/Ghostty.app"
 	  "${pkgs.vscodium}/Applications/VSCodium.app"
 	];
 	finder.AppleShowAllExtensions = true;

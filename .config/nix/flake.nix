@@ -62,6 +62,10 @@
 
       # binaries for Linux
       nix.linux-builder.enable = true;
+      # The QEMU-backed builder needs virtiofsd, which isn't available on darwin
+      # since nixpkgs replaced 9p with virtiofs in qemu-vm. Use the
+      # Virtualization.framework backend instead.
+      nix.linux-builder.package = pkgs.darwin.linux-builder-vz;
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
@@ -143,6 +147,15 @@
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
       nixpkgs.config.allowUnfree = true;
+
+      # Brave's .dmg ships a " " -> /Applications drag-target symlink next to
+      # the .app. stdenv's sourceRoot detection counts both as directories and
+      # bails with "unpacker produced multiple directories", so name it.
+      nixpkgs.overlays = [
+        (final: prev: {
+          brave = prev.brave.overrideAttrs (_: { sourceRoot = "Brave Browser.app"; });
+        })
+      ];
     };
   in
   {
